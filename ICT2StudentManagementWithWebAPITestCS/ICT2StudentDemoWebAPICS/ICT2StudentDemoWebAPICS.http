@@ -1,0 +1,6 @@
+@ICT2StudentDemoWebAPICS_HostAddress = http://localhost:5144
+
+GET {{ICT2StudentDemoWebAPICS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
