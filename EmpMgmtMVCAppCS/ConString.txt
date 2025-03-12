@@ -1,0 +1,4 @@
+﻿
+
+
+Data Source=DESKTOP-G78QDQR;Initial Catalog=EmployeeManagementDB;Integrated Security=True;Encrypt=True;Trust Server Certificate=True

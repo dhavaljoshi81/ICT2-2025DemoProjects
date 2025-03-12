@@ -1,0 +1,28 @@
+﻿
+
+HttpClient client = new HttpClient();
+client.BaseAddress = new Uri(apiURL);
+//client.DefaultRequestHeaders.Accept.Add(
+//    new MediaTypeWithQualityHeaderValue("application/json"));
+List<Employee> employees = new List<Employee>();
+
+HttpResponseMessage httpResponse = client.GetAsync(apiURL).Result;
+
+if(httpResponse.IsSuccessStatusCode)
+{
+    employees = await httpResponse.Content.ReadFromJsonAsync<List<Employee>>();
+}
+
+
+==============================================
+
+List<Object> targetList = new List<Object>();
+using (var httpClient = new HttpClient())
+{
+    using (var response = await httpClient.GetAsync("API-URL"))
+    {
+        string apiResponse = await response.Content.ReadAsStringAsync();
+        targetList = JsonConvert.DeserializeObject<List<Object>>(apiResponse);
+    }
+}
+
