@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICT2ConAppDemoCS", "ICT2ConAppDemoCS.csproj", "{A96B7443-9D60-4536-8EF3-F034C846DBE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A96B7443-9D60-4536-8EF3-F034C846DBE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96B7443-9D60-4536-8EF3-F034C846DBE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96B7443-9D60-4536-8EF3-F034C846DBE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96B7443-9D60-4536-8EF3-F034C846DBE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B97307E9-8EF1-4D49-893D-778E877AC642}
+	EndGlobalSection
+EndGlobal
